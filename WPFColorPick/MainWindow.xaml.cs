@@ -64,7 +64,7 @@ namespace WPFColorPick
 
             Button button = new Button();
             button.Content = "Delete";
-            button.Margin = new Thickness(5, 0, 0, 0);
+            button.Margin = new Thickness(5, 0, 10, 0);
             button.Padding = new Thickness(15, 5, 15, 5);
             button.VerticalAlignment = VerticalAlignment.Center;
             button.Click += Delete_Click;
